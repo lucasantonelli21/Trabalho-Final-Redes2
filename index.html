@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD de Usuarios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CRUD de Usuarios</h1>
+        <div id="form-container">
+            <input type="text" id="usuario" placeholder="Usuario">
+            <input type="text" id="nomeCompleto" placeholder="Nome Completo">
+            <input type="text" id="cpf" placeholder="CPF">
+            <button onclick="criarUser()">Adicionar Usuario</button>
+        </div>
+        <table id="users-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Usuario</th>
+                    <th>Nome Completo</th>
+                    <th>CPF</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Produtos serão inseridos aqui -->
+            </tbody>
+        </table>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
